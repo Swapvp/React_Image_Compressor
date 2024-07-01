@@ -1,0 +1,154 @@
+/* Components/Compressor.css */
+.center {
+	text-align: center !important;
+}
+.mainContainer {
+	margin: 0;
+	text-align: center;
+}
+@media (max-width: 768px) {
+	.mainContainer {
+	margin: 0;
+	}
+}
+.navbar {
+	z-index: 1041;
+	box-shadow: 0 4px 8px rgba(233, 12, 12, 0.2);
+	background-color: #fff78b !important;
+	padding: 20px;
+}
+.navbar-content {
+	color: green !important;
+	text-align: center !important;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	height: 100%; 
+}
+.help-icon,
+.history-icon {
+	font-size: 24px;
+	cursor: pointer;
+	margin-right: 20px;
+	color: #000;
+}
+.help-icon:hover,
+.history-icon:hover {
+	color: #3498db;
+}
+.help-container,
+.history-container {
+	text-align: left;
+	padding: 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	max-height: 200px;
+	overflow-y: auto;
+}
+.social-icons {
+	margin-right: 10px;
+	box-sizing: border-box;
+	width: 1.5em !important;
+	height: 1.5em !important;
+	color: #ecf0f1;
+	transition: color 0.3s;
+}
+.social-icons:hover {
+	color: #e74c3c;
+}
+.uploadCard {
+	width: 80%;
+	display: inline-block;
+}
+.image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border: 1px solid #ecf0f1;
+}
+.upload-btn-wrapper {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+}
+.btn {
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.btn:hover {
+	background-color: #2980b9;
+	transform: scale(1.05);
+}
+.upload-btn-wrapper input[type="file"] {
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+#qualitySlider {
+	width: 100%;
+	padding: 0;
+	margin: 10px 0;
+}
+.btn.download-btn {
+	background-color: #2ecc71;
+	transition: background-color 0.3s;
+}
+.btn.download-btn:hover {
+	background-color: #27ae60;
+}
+.btn-reset {
+	border: none;
+	color: white;
+	background-color: #e74c3c;
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+	margin-left: 20px;
+}
+.btn-reset:hover {
+	background-color: #c0392b;
+	transform: scale(1.05);
+}
+.compressed-message {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2ecc71;
+	margin-top: 10px;
+	transition: color 0.3s;
+}
+.compressed-message:hover {
+	color: #27ae60;
+}
+.button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+@media (max-width: 768px) {
+	.help-container,
+	.history-container {
+	width: 100%;
+	max-width: none;
+	}
+}
